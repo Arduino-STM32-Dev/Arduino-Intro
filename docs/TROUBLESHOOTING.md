@@ -17,7 +17,7 @@
 8. [电脑识别不到串口](#8-电脑识别不到串口)
 9. [蓝牙连不上 / 配对后立刻断开](#9-蓝牙连不上--配对后立刻断开)
 10. [闪烁时蓝牙指令丢失](#10-闪烁时蓝牙指令丢失)
-11. [屏幕_words.ino 文件损坏事件](#11-screen_wordsino-文件损坏事件)
+11. [screen_words 文件损坏事件](#11-screenwords-文件损坏事件)
 
 ---
 
@@ -356,7 +356,7 @@ if (ledMode == 2) {
 
 ---
 
-## 11. `screen_words.ino` 文件损坏事件
+## 11. screen_words 文件损坏事件
 
 **现象**：[firmware/screen_words/screen_words.ino](../firmware/screen_words/screen_words.ino) 文件第一行是一长串无意义的 `AAAA...QQQQ...` 字符，代码从第 2 行才开始。
 

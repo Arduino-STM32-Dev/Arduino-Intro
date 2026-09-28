@@ -85,7 +85,7 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);   // RS, E, D4, D5, D6, D7
 | **对比度难调** | 电位器转十几圈才找到位置，一度以为屏幕坏了 |
 | **引脚被占满** | 一口气用掉 6 个 IO 口 |
 | **与蓝牙冲突** | E 脚占用了 D11 —— 正是后来蓝牙软串口要用的引脚 |
-| **文件损坏** | 串口乱码被误粘贴进源文件开头（见 [TROUBLESHOOTING.md #11](TROUBLESHOOTING.md#11-screen_wordsino-文件损坏事件)） |
+| **文件损坏** | 串口乱码被误粘贴进源文件开头（见 [TROUBLESHOOTING.md #11](TROUBLESHOOTING.md#11-screenwords-文件损坏事件)） |
 
 ### 认知跃迁
 

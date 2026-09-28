@@ -70,7 +70,7 @@ float h = dht.readHumidity();      // 相对湿度 %
   - **必须用 `isnan()` 检查返回值**，失败时返回 `NaN`
   - 型号必须与实际硬件一致（`DHT11` / `DHT22` / `DHT21` / `AM2302`），否则读数错误
 - **依赖**：需要 `Adafruit_Unified_Sensor`（本项目已一并打包）
-- **许可证**：MIT（Copyright © 2020 Adafruit Industries），原文见 [DHT_sensor_library/license.txt](DHT_sensor_library/license.txt)
+- **许可证**：MIT（Copyright © 2020 Adafruit Industries），原文见 [DHT_sensor_library/license.txt](../libraries/DHT_sensor_library/license.txt)
 
 ### 2. Adafruit Unified Sensor v1.1.15
 
@@ -83,7 +83,7 @@ fatal error: Adafruit_Sensor.h: No such file or directory
 
 - **本项目使用**：**不直接调用**，仅作为 `DHT.h` 的传递依赖存在
 - **头文件**：`#include <Adafruit_Sensor.h>`
-- **许可证**：Apache-2.0，原文见 [Adafruit_Unified_Sensor/LICENSE.txt](Adafruit_Unified_Sensor/LICENSE.txt)
+- **许可证**：Apache-2.0，原文见 [Adafruit_Unified_Sensor/LICENSE.txt](../libraries/Adafruit_Unified_Sensor/LICENSE.txt)
 
 ### 3. LiquidCrystal_I2C v1.1.2 ⭐ 本项目主用
 
